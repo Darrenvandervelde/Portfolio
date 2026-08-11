@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Calculator App</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://pyscript.net/releases/2026.7.3/core.css" />
+    <script type="module" src="https://pyscript.net/releases/2026.7.3/core.js"></script>
+    <style>
+        body {
+            text-align: center;
+        }
+
+        #inputID {
+            margin-top: 40px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>
+        Input your calculation below
+    </h1>
+    <div id="inputID">
+        <form onsubmit="return false">
+            <label for="numInput">Input your number here:</label>
+            <input type="number" id="numInput" name="numInput">
+            <button pys-onClick="inputTaker">Click here!</button>
+        </form>
+    </div>
+    <div id="inputDisplayer">
+
+    </div>
+    <table>
+    </table>
+    <py-script>
+        print("helooo")
+
+        def inputTaker(*args, **kwargs) :
+            inputDestination = Element("inputDisplayer")
+            inputDestination.write(Element("numInput").value)
+    </py-script>
+</body>
+
+</html>

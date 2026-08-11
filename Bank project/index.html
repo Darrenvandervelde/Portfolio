@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <Title>Banking Website</Title>
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <h1>This is a website with the purpose of assisting the user with their banking needs</h1>
+    <h2>
+        You can check your balance:
+    </h2>
+    <button onclick="user.checkBalance()">Click here!</button>
+    <h2>
+        You can deposit money:
+    </h2>
+    <form action="index.html">
+        <label for="inputMoney">Please enter your the amount you'd like to deposit here:</label>
+        <input type="number" id="inputMoney" name="inputMoney">
+    </form>
+    <button onclick="user.deposit(document.getElementById('inputMoney').value)">
+        Click here!
+    </button>
+
+    <h2>
+        You can withdraw money:
+    </h2>
+    <form action="index.html">
+        <label for="exitMoney">Please enter your the amount you'd like to withdraw here:</label>
+        <input type="number" id="exitMoney" name="exitMoney">
+    </form>
+    <button onclick="user.withdraw(document.getElementById('exitMoney').value)">
+        Click here!
+    </button>
+
+</body>
+
+</html>
