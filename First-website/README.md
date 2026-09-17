@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My Profile Page</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f0f0f0;
+        }
+
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 20px auto;
+            border-radius: 8px;
+        }
+
+        a {
+            color: #3498db;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        p {
+            line-height: 1.6;
+            color: #333;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Welcome to my Profile!</h1>
+    <hr>
+    <img src="ProfilePic.jpg" alt="Profile picture">
+    <h2>About Me</h2>
+    <p>Hi! I'm embarking on a noble quest to learn website development. This is my first crack at a proper, professional
+        website! It only uses HTML and CSS for now.</p>
+    <h2>My favourite websites</h2>
+    <ul>
+        <li><a href="https://www.google.com" target="_blank">I think Google revoltionsized the modern world. For better
+                or worse? You decide</a></li>
+        <li><a href="https://www.crunchyroll.com" target="_blank">A lot less revolutionary, but everyone loves a
+                goodstory. Especially me.</a></li>
+    </ul>
+
+</body>
+
+</html>
