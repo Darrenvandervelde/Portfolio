@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleSheet.css">
+    <script src="https://kit.fontawesome.com/553aaf0e27.js" crossorigin="anonymous"></script>
+
+    <title>Contact Us</title>
+</head>
+
+<body>
+    <nav>
+        <ul class="nav-list">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contacts.html">Contact Us</a></li>
+        </ul>
+    </nav>
+
+
+    <h1>Contact Us</h1>
+    <hr>
+
+    <main class="content-container">
+        <section>
+            <h2>My Contact Information:</h2>
+            <p>I'm not actually putting that here so you'll just have to imagine for now</p>
+        </section>
+
+        <hr>
+        <form id="contact-form" action="#" method="post">
+            <div class="form-group">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required minlength="2">
+            </div>
+            <div class="form-group">
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" pattern="[0=9]{10}">
+            </div>
+            <div class="form-group">
+                <label for="subject">Subject</label>
+                <select id="subject" name="subject" required>
+                    <option value="">Please select a subject</option>
+                    <option value="general">General Inquiry</option>
+                    <option value="support">Technical Support</option>
+                    <option value="billing">Billing Question</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" required minlength="10"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="tick"><input type="checkbox" id="tick" name="tick">Tick this box to make
+                    me happy</label>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2025 Harry Theokli LTD. All rights reserved</p>
+            <ul class="nav-list">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contacts.html">Contact Us</a></li>
+            </ul>
+
+            <p class="footer-social">
+                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><i class="fa-brands fa-x-twitter"></i></a>
+            </p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
